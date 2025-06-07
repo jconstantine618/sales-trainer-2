@@ -1,0 +1,7 @@
+# requirements.txt  (or pyproject.toml)
+SQLAlchemy>=2.0
+asyncpg>=0.29
+psycopg[binary]      # alembic needs the sync driver
+alembic>=1.13
+celery[redis]>=5.4
+redis>=5.0

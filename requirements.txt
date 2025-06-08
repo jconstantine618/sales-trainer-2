@@ -8,5 +8,6 @@ redis>=5.0
 fastapi
 uvicorn[standard]
 gunicorn
+pydantic-settings>=2.2,<3
 # …any other deps you already have…
 
